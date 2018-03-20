@@ -53,7 +53,7 @@ public class GlowneOkno extends JFrame{
 		ObsulgaLinii linie = new ObsulgaLinii();
 		panel4.add(linie);
 		
-		ObslugaKolorow kolory = new ObslugaKolorow();
+		ObslugaKolorow kolory = new ObslugaKolorow(this);
 		panel5.add(kolory);
 		
 		panel1.setPreferredSize(new Dimension(50, 50));
@@ -75,6 +75,38 @@ public class GlowneOkno extends JFrame{
 		
 		
 		
+	}
+	
+	public JPanel getPanel2() {
+		return panel2;
+	}
+
+	public void setPanel2(JPanel panel2) {
+		this.panel2 = panel2;
+	}
+
+	public JPanel getPanel3() {
+		return panel3;
+	}
+
+	public void setPanel3(JPanel panel3) {
+		this.panel3 = panel3;
+	}
+
+	public JPanel getPanel4() {
+		return panel4;
+	}
+
+	public void setPanel4(JPanel panel4) {
+		this.panel4 = panel4;
+	}
+
+	public JPanel getPanel5() {
+		return panel5;
+	}
+
+	public void setPanel5(JPanel panel5) {
+		this.panel5 = panel5;
 	}
 
 	public static void main(String[] args) {
