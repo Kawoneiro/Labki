@@ -22,7 +22,7 @@ public class ObslugaKolorow extends JPanel{
 		@Override
 		public void actionPerformed(ActionEvent e) {
 			final JColorChooser wybor = new JColorChooser();
-			wybor.setColor(Color.BLUE);
+			wybor.setColor(Color.white);
 			wybor.getSelectionModel().addChangeListener(new ChangeListener() {
 	            @Override
 	            public void stateChanged(ChangeEvent arg0) {
